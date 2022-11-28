@@ -34,6 +34,10 @@ const Home = ({
   trendingNow,
 } : Props) => {
   const {logout, loading} = useAuth()
+
+
+
+  
   const showModel = useRecoilValue(modalState)
   // const  [showModel, setShowModel] = useState(false)
 
